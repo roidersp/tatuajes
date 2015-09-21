@@ -1,0 +1,1371 @@
+#recommended-wrapper{
+	display: none;
+}
+
+.indepth_share{
+		display: none;
+		position: fixed;
+		right: 10px;
+		bottom: 10px;
+		z-index: 200;
+		
+	}
+	
+	.indepth_share_item{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, 0.2);
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
+	}
+	
+	.indepth_share_item.facebook{
+		background-image: url(../images/boton_facebook.png);
+		
+	}
+	#indepth_share_card .indepth_share_item.facebook{
+		background-color: #3660A4;
+	}
+	
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
+	}
+	
+	#indepth_share_card .indepth_share_item.twitter{
+		background-color: #02B2F7;
+	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/boton_twitter.png);
+		
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		background-image: url(../images/boton_whatsapp.png);
+		display: none;
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+	
+	
+	#com{
+		width: 90%;
+		margin: auto;
+	}
+
+#indepth_button_ver{
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/IMG_scroll.png);
+	margin: auto;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.indepth_button_cont{
+	width: 100%;
+	position: absolute;
+	bottom: 80px;
+}
+
+.indepth_pages{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 19px;
+	margin: auto;
+}
+
+.indepth_page{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	margin: auto;
+}
+
+.indepth_page_content{
+	background-color:  white;
+	position: relative;
+	font-family: 'Roboto';
+	background-size: auto 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+}
+
+.indepth_page_image{
+	height: 900px;
+}
+
+#com{
+	background: white;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	max-width: 900px;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+ 
+#indepth_cover .indepth_parallax_back{
+	background-image: url(../images/1PORTADA_Fondo.png);
+	background-size: 1920px auto;
+	background-position: center top;
+	text-align: center;
+	width: 100%;
+}
+
+#indepth_cover{
+	position: relative;
+}
+
+.indepth_container_cover{
+	display: table;
+	width: 100%;
+}
+
+.indepth_container_cover img{
+	width: 100%;
+}
+
+.indepth_logo_cover{
+	width: 96%;
+	max-width: 650px;
+	margin: auto
+}
+
+.indepth_logo_img_cover{
+	width: 171px;
+	margin: auto;
+}
+
+.indepth_imgs{
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 50px;
+}
+
+#indepth_mosaico{
+	width: 96%;
+	max-width: 920px;
+	margin: auto;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.indepth_mosaico_item{
+	width: 165px;
+	height: 165px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.indepth_mosaico_item img{
+	width: 100%;
+}
+
+.indepth_page_content .indepth_page_body{
+	position: relative;
+	max-width: 1000px;
+	
+}
+
+/***** mosaico ******/
+
+#ALI{
+	background-image: url(../images/2MOSAICO_ALI.png);
+}
+
+#ALI:hover{
+	background-image: url(../images/2MOSAICO_ALI_OVER.png);
+}
+
+#ALVES{
+	background-image: url(../images/2MOSAICO_ALVES.png);
+}
+
+#ALVES:hover{
+	background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+}
+
+#BECKHAM{
+	background-image: url(../images/2MOSAICO_BECKHAM.png);
+}
+
+#BECKHAM:hover{
+	background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+}
+
+#CANNAVARO{
+	background-image: url(../images/2MOSAICO_CANNAVARO.png);
+}
+
+#CANNAVARO:hover{
+	background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+}
+
+#CISSE{
+	background-image: url(../images/2MOSAICO_CISSE.png);
+}
+
+#CISSE:hover{
+	background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+}
+
+#DEROSSI:hover{
+	background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+}
+
+#DEROSSI{
+	background-image: url(../images/2MOSAICO_DEROSSI.png);
+}
+
+#HOWARD:hover{
+	background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+}
+
+#HOWARD{
+	background-image: url(../images/2MOSAICO_HOWARD.png);
+}
+
+#JONG{
+	background-image: url(../images/2MOSAICO_JONG.png);
+}
+
+#JONG:hover{
+	background-image: url(../images/2MOSAICO_JONG_OVER.png);
+}
+
+#LAYUN{
+	background-image: url(../images/2MOSAICO_LAYUN.png);
+}
+
+#LAYUN:hover{
+	background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+}
+
+#MARADONA{
+	background-image: url(../images/2MOSAICO_MARADONA.png);
+}
+
+#MARADONA:hover{
+	background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+}
+
+#MEIRELES{
+	background-image: url(../images/2MOSAICO_MEIRELES.png);
+}
+
+#MEIRELES:hover{
+	background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+}
+
+#MESSI{
+	background-image: url(../images/2MOSAICO_MESSI.png);
+}
+
+#MESSI:hover{
+	background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+}
+
+#MORGAN{
+	background-image: url(../images/2MOSAICO_MORGAN.png);
+}
+
+#MORGAN:hover{
+	background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+}
+
+#NEYMAR{
+	background-image: url(../images/2MOSAICO_NEYMAR.png);
+}
+
+#NEYMAR:hover{
+	background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+}
+
+#RAMOS{
+	background-image: url(../images/2MOSAICO_RAMOS.png);
+}
+
+#RAMOS:hover{
+	background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+}
+
+#SYDNEY{
+	background-image: url(../images/2MOSAICO_SYDNEY.png);
+}
+
+#SYDNEY:hover{
+	background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+}
+
+#TEVEZ{
+	background-image: url(../images/2MOSAICO_TEVEZ.png);
+}
+
+#TEVEZ:hover{
+	background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+}
+
+#VUOSO{
+	background-image: url(../images/2MOSAICO_VUOSO.png);
+}
+
+#VUOSO:hover{
+	background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+}
+
+#ZLATAN{
+	background-image: url(../images/2MOSAICO_ZLATAN.png);
+}
+
+#ZLATAN:hover{
+	background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+}
+
+#AGGER{
+	background-image: url(../images/2MOSAICO_AGGER.png);
+}
+
+#AGGER:hover{
+	background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+}
+
+
+/*** fin del mosaico  ******/
+
+.indepth_tatuajes_text{
+	font-size: 20px;
+	font-family: 'Roboto condensed';
+	position: absolute;
+}
+
+.indepth_tatuaje_item{
+	display: inline-block;
+	position: relative;
+}
+
+.indepth_img_over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.indepth_img_over:hover{
+	opacity: 1;
+}
+
+.indepth_tatuajes_imgs{
+	position: absolute;
+	cursor: pointer;
+	text-align: center
+}
+
+/******* fondos *******/
+
+#indepth_BECKHAM{
+	background-image: url(../images/BECK_FONDO.png);
+}
+
+#indepth_ALI{
+	background-image: url(../images/ALI_FONDO.png)
+}
+
+#indepth_CISSE{
+	background-image: url(../images/CISSE_FONDO.png)
+}
+
+#indepth_CANNA{
+	background-image: url(../images/CANNA_FONDO.png)
+}
+
+#indepth_MARADO{
+	background-image: url(../images/MARADO_FONDO.png)
+}
+
+#indepth_ZLATAN{
+	background-image: url(../images/ZLATAN_FONDO.png)
+}
+
+#indepth_MEIRELES{
+	background-image: url(../images/MEIRELES_FONDO.png)
+}
+
+#indepth_MESSI{
+	background-image: url(../images/MESSI_FONDO.png)
+}
+
+#indepth_MORGAN{
+	background-image: url(../images/MORGAN_FONDO.png)
+}
+
+#indepth_NEY{
+	background-image: url(../images/NEY_FONDO.png)
+}
+
+#indepth_VUOSO{
+	background-image: url(../images/VUOSO_FONDO.png)
+}
+
+#indepth_RAMOS{
+	background-image: url(../images/RAMOS_FONDO.png)
+}
+
+#indepth_JONG{
+	background-image: url(../images/JONG_FONDO.png)
+}
+
+#indepth_MEIRELES{
+	background-image: url(../images/MEIRELES_FONDO.png)
+}
+
+#indepth_MEIRELES{
+	background-image: url(../images/MEIRELES_FONDO.png)
+}
+
+#indepth_MEIRELES{
+	background-image: url(../images/MEIRELES_FONDO.png)
+}
+
+#indepth_MEIRELES{
+	background-image: url(../images/MEIRELES_FONDO.png)
+}
+
+/***** fin fondos *******/
+
+/****** inicio estilos textos *****/
+
+#indepth_BECKHAM .indepth_tatuajes_text{
+	width: 340px;
+	top: 310px;
+	right: 30px;
+}
+
+#indepth_BECKHAM .indepth_tatuajes_imgs{
+	width: 560px;
+	right: 10px;
+	bottom: 80px;
+}
+
+#indepth_ALI .indepth_tatuajes_text{
+	width: 430px;
+	top: 370px;
+	left: 50px;
+}
+
+#indepth_ALI .indepth_tatuajes_imgs{
+	width: 430px;
+	left: 20px;
+	bottom: 135px;
+}
+
+#indepth_CISSE .indepth_tatuajes_text{
+	width: 500px;
+	top: 370px;
+	right: 30px;
+}
+
+#indepth_CISSE .indepth_tatuajes_imgs{
+	width: 600px;
+	right: 20px;
+	bottom: 60px;
+}
+
+#indepth_CANNA .indepth_tatuajes_text{
+	width: 500px;
+	top: 580px;
+	left: 20px;
+	color: white;
+}
+
+#indepth_CANNA .indepth_tatuajes_imgs{
+	width: 440px;
+	left: 20px;
+	bottom: 10px;
+}
+
+#indepth_MARADO .indepth_tatuajes_text{
+	width: 500px;
+	top: 440px;
+	right: 30px;
+}
+
+#indepth_MARADO .indepth_tatuajes_imgs{
+	width: 520px;
+	right: 40px;
+	bottom: 40px;
+}
+
+#indepth_ZLATAN .indepth_tatuajes_text{
+	width: 650px;
+	top: 430px;
+	right: 10px;
+	color: white;
+}
+
+#indepth_ZLATAN .indepth_tatuajes_imgs{
+	width: 650px;
+	right: 20px;
+	bottom: 0px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_MESSI .indepth_tatuajes_text{
+	width: 480px;
+	top: 290px;
+	right: 30px;
+	color: white;
+}
+
+#indepth_MESSI .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 0px;
+	bottom: 10px;
+}
+
+#indepth_MORGAN .indepth_tatuajes_text{
+	width: 460px;
+	top: 410px;
+	left: 50px;
+}
+
+#indepth_MORGAN .indepth_tatuajes_imgs{
+	width: 460px;
+	LEFT: 50px;
+	bottom: 10px;
+}
+
+#indepth_NEY .indepth_tatuajes_text{
+	width: 460px;
+	top: 340px;
+	left: 50px;
+}
+
+#indepth_NEY .indepth_tatuajes_imgs{
+	width: 610px;
+	left: 0px;
+	bottom: 100px;
+}
+
+#indepth_VUOSO .indepth_tatuajes_text{
+	width: 450px;
+	top: 400px;
+	right: 60px;
+	color: white;
+}
+
+#indepth_VUOSO .indepth_tatuajes_imgs{
+	width: 470px;
+	right: 50px;
+	bottom: 100px;
+}
+
+#indepth_RAMOS .indepth_tatuajes_text{
+	width: 500px;
+	top: 390px;
+	LEFT: 60px;
+}
+
+#indepth_RAMOS .indepth_tatuajes_imgs{
+	width: 580px;
+	left: 10px;
+	bottom: 20px;
+}
+
+#indepth_JONG .indepth_tatuajes_text{
+	width: 330px;
+	top: 430px;
+	left: 70px;
+}
+
+#indepth_JONG .indepth_tatuajes_imgs{
+	width: 520px;
+	left: 0px;
+	bottom: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+/******* fin estilos **********/
+
+
+.indepth_page_content .indepth_container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+
+.indepth_page_content .indepth_text{
+	color: #535252; /* color de la fuente*/
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	display: table;
+	max-width: 680px;
+	margin: auto;
+	color: black;
+	letter-spacing: .8px;
+	text-align: justify;
+	color: white;
+	font-family: 'Roboto Condensed';
+}
+
+
+.indepth_page_content .indepth_title{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #4eb1f9;
+	font-family: 'Roboto Condensed';
+}
+
+.indepth_img_playeras{
+	display: table;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.indepth_playera {
+	display: inline-block;
+	margin: 0px 25px;
+}
+
+.indepth_player_sep{
+	width: 40px;
+	height: 100px;
+	float: left;
+}
+
+.indepth_playera img{
+	width: 100%;
+}
+
+.indepth_logo_team{
+	display: table;
+	margin: auto;
+}
+
+.indepth_playera_side{
+	width: 100%;
+	display: table;
+	position: relative;
+	margin-top: 30px;
+}
+
+.indepth_playera_side_item{
+	position: absolute;
+	top: 0;	
+}
+
+.indepth_playera_side_item.izq{
+	left: 5%;
+}
+
+.indepth_playera_side_item.der{
+	right: 5%;
+}
+
+.indepth_playera_side_item{
+	display: inline-block;
+}
+
+.indepth_playera_costado{
+	width: 400px;
+	margin: auto;
+}
+
+.indepth_descargar_boton{
+	width: 154px;
+	height: 37px;
+	margin: 30px auto;
+	background-image: url(../images/BTN-Descargar.png);
+	cursor: pointer;
+}
+
+.indepth_descargar_boton:hover{
+	background-image: url(../images/BTN-DescargarOVER.png);
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #313232;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+
+.indepth_parallax_back {
+	height: 100%;
+	background-size: cover;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display: table;
+	width: 100%;
+}
+
+.indepth_datos{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: 'Roboto'
+}
+
+.indepth_datos span{
+	font-weight: 300;
+}
+
+.indepth_share_logos{
+	max-width: 880px;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.indepth_share_logos_item{
+	height: 135px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 10px;
+}
+
+.indepth_share_logos_item img{
+	opacity: .7;
+	cursor: pointer;
+}
+
+.indepth_share_logos_item img:hover{
+	opacity: 1;
+	transform: scale(.9);
+}
+
+
+.indepth_share_logos_item img{
+	height: 100%;
+}
+
+.indepth_text.cual{
+	color: #313232;
+	font-size: 25px;
+	max-width: 420px;
+	text-align: center;
+	font-weight: 300;
+}
+/****DINAMICO****/
+
+
+
+
+
+#indepth_page1 {
+	background-image: url(../images/BUZZ_Fondo.png);
+}
+
+#indepth_page2 {
+	background-image: url(../images/MINION_Fondo.png);
+}
+
+#indepth_page3 {
+	background-image: url(../images/NORMAN_Fondo.png);
+}
+
+#indepth_page4 {
+	background-image: url(../images/DRAGON_Fondo.png);
+}
+
+#indepth_page5 {
+	background-image: url(../images/MONSTER_Fondo.png);
+}
+
+#indepth_page6 {
+	background-image: url(../images/SHREK_Fondo.png);
+}
+
+#indepth_page7 {
+	background-image: url(../images/JACK_Fondo.png);
+}
+
+#indepth_page8 {
+	background-image: url(../images/INTENSA_Fondo.png);
+}
+
+#indepth_page9 {
+	background-image: url(../images/HUEVOS_Fondo.png);
+}
+#indepth_page10{
+	padding-bottom: 120px;
+	padding-top: 80px;
+}
+
+.indepth_container_cover{
+}
+
+.indepth_container_cover div{
+	text-align: center;
+}
+
+.indepth_parallax_back{
+	display: table;
+}
+
+#indepth_share_card{
+	width: 320px;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+	
+	
+}
+
+.indepth_share_big_content{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	height: 100vh;
+	top:0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.8);
+	display: table;
+	z-index: 200;
+	display: none;
+	-webkit-transform:translateZ(1px);
+      -moz-transform:translateZ(1px);
+      -o-transform:translateZ(1px);
+      transform:translateZ(1px);
+      cursor: pointer;
+	
+}
+
+.indepth_share_card_cont{
+	background: white;
+	width: 320px;
+	margin: auto;
+	display: table;
+	position: relative;
+	cursor: auto;
+}
+
+#indepth_card_close{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: black;
+	transform: translate(50%,-50%);
+	-webkit-transform: translate(50%,-50%);
+	-moz-transform: translate(50%,-50%);
+	-ms-transform: translate(50%,-50%);
+	-o-transform: translate(50%,-50%);
+	border-radius: 50%;
+	background-image: url("../images/equis.png");
+	background-size: 50% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#indepth_share_image{
+	display: table;
+	width: 100%;
+}
+
+#indepth_share_image img {
+	width: 100%;
+}
+
+.indepth_share_item{
+	z-index: 300;
+}
+
+.indepth_share_info_cont{
+	width: 280px;
+	margin:  25px auto;
+}
+
+#indepth_share_title{
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.indepth_share_text{
+	font-size: 16px;
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.indepth_share_compartir{
+	font-size: 12px;
+	color: #b2b2b2;
+	text-transform: uppercase;
+}
+
+.indepth_share_card_boton{
+	  margin: 10px auto;
+	  display: table;
+	  margin-top: 5px;
+
+}
+
+
+/***** menu******/
+
+
+/* mobile adecuations */
+
+@media screen and (max-width: 1960px) {
+	
+}
+
+
+@media screen and (max-height: 890px) {
+	.indepth_logo_img_cover{
+		margin: auto;
+		
+	}
+	
+	.indepth_logo_img_cover img{
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_parallax_back {
+	    background-position: center -100px;
+	}
+	
+
+	
+	.indepth_logo_cover img{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-height: 810px) {
+
+	
+	.indepth_logo_img_cover img{
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_parallax_back {
+	    background-position: center -100px;
+	}
+	
+
+	
+	.indepth_logo_cover img{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-height: 750px) {
+	
+}
+
+@media screen and (max-height: 720px) {
+
+	
+		
+}
+
+@media screen and (max-height: 720px) {
+
+
+	
+		
+}
+
+@media screen and (max-height: 640px) {
+
+	
+	
+	
+		
+}
+
+@media screen and (max-height: 580px) {
+
+		
+}
+
+@media screen and (max-height: 480px) {
+
+		
+}
+
+@media screen and (max-height: 420px) {
+
+		
+}
+
+@media screen and (max-height: 350px) {
+
+	
+		
+}
+
+/*** Movil ****/
+@media screen and (max-width:1100px) {
+	.indepth_page_content .indepth_page_body{
+		max-width: 900px;
+	}
+	
+	.indepth_playera{
+		width: 350px;
+	}
+	
+	.indepth_playera_costado{
+		width: 320px;
+	}
+	
+	.indepth_playera_costado img{
+		width: 100%;
+	}
+	
+	.indepth_playera_side_item{
+		width: 260px;
+	}
+	
+	.indepth_playera_side_item img{
+		width: 100%;
+	}
+	
+	.indepth_playera_side_item.izq{
+		left: 6%;
+	}
+	
+	.indepth_playera_side_item.der{
+		right: 6%;
+	}
+	
+	.indepth_share_logos{
+		max-width: 700px;
+	}
+	
+	.indepth_page_image{
+		height: 1380px;
+		background-size: auto 1120px;
+	}
+}
+
+@media screen and (max-height: 730px) {
+
+
+	
+	
+}
+
+
+
+@media screen and (max-width: 960px) {
+	body{
+		width: 100%;
+		min-width: 0px;
+	}
+	
+	.indepth_pages, .indepth_page{
+		min-width: 0;
+	}
+
+
+	.indepth_docs, .indepth_docs_container{
+		width: 800px;
+		height: 443px;
+
+	}
+
+	.indepth_docs_container{
+		margin-left: 0px;
+	}
+	.indepth_docs_r{
+		width: 248px;
+	}
+
+	.indepth_docs_left{
+		width: 550px;
+
+	}
+
+	.indepth_docs_title{
+		font-size: 18px;
+	}
+
+	.indepth_docs_text{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.indepth_playera{
+		width: 300px;
+	}
+	
+	.indepth_playera_side{
+		width: 680px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	
+	.indepth_playera_side_item{
+		width: 240px;
+		top: 20px;
+	}
+	
+	.indepth_playera_side_item.izq{
+		left: 0%;
+	}
+	
+	.indepth_playera_side_item.der{
+		right: 0%;
+	}
+	
+	.indepth_page_image {
+	    height: 1300px;
+	    background-size: auto 1060px;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	.indepth_playera{
+		width: 250px;
+	}
+	
+	.indepth_playera_side{
+		width: 580px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	
+	.indepth_playera_side_item{
+		width: 200px;
+		top: 35px;
+	}
+	
+	.indepth_playera_side_item.izq{
+		left: 0%;
+	}
+	
+	.indepth_playera_side_item.der{
+		right: 0%;
+	}
+	
+	.indepth_page_image {
+	    height: 1200px;
+	    background-size: auto 970px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.indepth_playera{
+		max-width: 450px;
+		width: 95%;
+		margin: auto;
+	}
+	
+	.indepth_playera_costado{
+		width: 95%;
+		max-width: 400px;
+	}
+	
+	.indepth_playera_side_item{
+		display: none;
+	}
+	
+	
+	.indepth_page_image {
+	    height: 2250px;
+	    background-size: auto 2000px;
+	}
+	
+	.indepth_logo_img_cover{
+		width: 95%;
+	}
+
+
+	.indepth_playera_side{
+		width: 100%;
+	}
+	
+	body{
+		webkit-overflow-scrolling: touch;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+	.indepth_logo_team{
+		margin-bottom: 50px;
+	}
+	
+	.indepth_page_image {
+	    height: 2150px;
+	    background-size: auto 1900px;
+	}
+	
+	.indepth_share_logos_item{
+		height: 90px;
+	}
+	
+	.indepth_share_logos_item img{
+		height: 100%;
+	}
+	
+	
+
+
+}
+	
+@media screen and (max-width: 375px) {
+	
+	.indepth_page_image {
+	    height: 2000px;
+	    background-size: auto 1750px;
+	}
+	
+}
+	
+@media screen and (max-width: 360px) {
+	.indepth_page_image {
+	    height: 1920px;
+	    background-size: auto 1650px;
+	}
+	
+}
+
+@media screen and (max-width: 320px) {
+	.indepth_page_image {
+	    height: 1770px;
+	    background-size: auto 1480px;
+	}
+	
+}
+
+
+
+@media screen and (max-height: 414px) {
+	
+}
+
+
