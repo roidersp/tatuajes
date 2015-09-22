@@ -196,6 +196,10 @@
 }
 
 
+.indepth_tatuajes_cuadros, .indepth_cover_movil{
+	display: none;
+}
+
 
 .indepth_tatuajes_text{
 	font-size: 20px;
@@ -335,6 +339,7 @@
 	text-align: justify;
 	color: white;
 	font-family: 'Roboto Condensed';
+	font-weight: 300;
 }
 
 
@@ -348,57 +353,7 @@
 	font-family: 'Roboto Condensed';
 }
 
-.indepth_img_playeras{
-	display: table;
-	margin: auto;
-	text-align: center;
-	width: 100%;
-	max-width: 1000px;
-}
 
-.indepth_playera {
-	display: inline-block;
-	margin: 0px 25px;
-}
-
-.indepth_player_sep{
-	width: 40px;
-	height: 100px;
-	float: left;
-}
-
-.indepth_playera img{
-	width: 100%;
-}
-
-.indepth_logo_team{
-	display: table;
-	margin: auto;
-}
-
-.indepth_playera_side{
-	width: 100%;
-	display: table;
-	position: relative;
-	margin-top: 30px;
-}
-
-.indepth_playera_side_item{
-	position: absolute;
-	top: 0;	
-}
-
-.indepth_playera_side_item.izq{
-	left: 5%;
-}
-
-.indepth_playera_side_item.der{
-	right: 5%;
-}
-
-.indepth_playera_side_item{
-	display: inline-block;
-}
 
 .indepth_playera_costado{
 	width: 400px;
@@ -619,163 +574,163 @@
 	/***** mosaico ******/
 	
 	#ALI{
-		background-image: url(../images/2MOSAICO_ALI.png);
+		background-image: url(../images/2MOSAICO_ALI.jpg);
 	}
 	
 	#ALI:hover{
-		background-image: url(../images/2MOSAICO_ALI_OVER.png);
+		background-image: url(../images/2MOSAICO_ALI_OVER.jpg);
 	}
 	
 	#ALVES{
-		background-image: url(../images/2MOSAICO_ALVES.png);
+		background-image: url(../images/2MOSAICO_ALVES.jpg);
 	}
 	
 	#ALVES:hover{
-		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+		background-image: url(../images/2MOSAICO_ALVES_OVER.jpg);
 	}
 	
 	#BECKHAM{
-		background-image: url(../images/2MOSAICO_BECKHAM.png);
+		background-image: url(../images/2MOSAICO_BECKHAM.jpg);
 	}
 	
 	#BECKHAM:hover{
-		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.jpg);
 	}
 	
 	#CANNAVARO{
-		background-image: url(../images/2MOSAICO_CANNAVARO.png);
+		background-image: url(../images/2MOSAICO_CANNAVARO.jpg);
 	}
 	
 	#CANNAVARO:hover{
-		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.jpg);
 	}
 	
 	#CISSE{
-		background-image: url(../images/2MOSAICO_CISSE.png);
+		background-image: url(../images/2MOSAICO_CISSE.jpg);
 	}
 	
 	#CISSE:hover{
-		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+		background-image: url(../images/2MOSAICO_CISSE_OVER.jpg);
 	}
 	
 	#DEROSSI:hover{
-		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.jpg);
 	}
 	
 	#DEROSSI{
-		background-image: url(../images/2MOSAICO_DEROSSI.png);
+		background-image: url(../images/2MOSAICO_DEROSSI.jpg);
 	}
 	
 	#HOWARD:hover{
-		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.jpg);
 	}
 	
 	#HOWARD{
-		background-image: url(../images/2MOSAICO_HOWARD.png);
+		background-image: url(../images/2MOSAICO_HOWARD.jpg);
 	}
 	
 	#JONG{
-		background-image: url(../images/2MOSAICO_JONG.png);
+		background-image: url(../images/2MOSAICO_JONG.jpg);
 	}
 	
 	#JONG:hover{
-		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+		background-image: url(../images/2MOSAICO_JONG_OVER.jpg);
 	}
 	
 	#LAYUN{
-		background-image: url(../images/2MOSAICO_LAYUN.png);
+		background-image: url(../images/2MOSAICO_LAYUN.jpg);
 	}
 	
 	#LAYUN:hover{
-		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.jpg);
 	}
 	
 	#MARADONA{
-		background-image: url(../images/2MOSAICO_MARADONA.png);
+		background-image: url(../images/2MOSAICO_MARADONA.jpg);
 	}
 	
 	#MARADONA:hover{
-		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.jpg);
 	}
 	
 	#MEIRELES{
-		background-image: url(../images/2MOSAICO_MEIRELES.png);
+		background-image: url(../images/2MOSAICO_MEIRELES.jpg);
 	}
 	
 	#MEIRELES:hover{
-		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.jpg);
 	}
 	
 	#MESSI{
-		background-image: url(../images/2MOSAICO_MESSI.png);
+		background-image: url(../images/2MOSAICO_MESSI.jpg);
 	}
 	
 	#MESSI:hover{
-		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+		background-image: url(../images/2MOSAICO_MESSI_OVER.jpg);
 	}
 	
 	#MORGAN{
-		background-image: url(../images/2MOSAICO_MORGAN.png);
+		background-image: url(../images/2MOSAICO_MORGAN.jpg);
 	}
 	
 	#MORGAN:hover{
-		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.jpg);
 	}
 	
 	#NEYMAR{
-		background-image: url(../images/2MOSAICO_NEYMAR.png);
+		background-image: url(../images/2MOSAICO_NEYMAR.jpg);
 	}
 	
 	#NEYMAR:hover{
-		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.jpg);
 	}
 	
 	#RAMOS{
-		background-image: url(../images/2MOSAICO_RAMOS.png);
+		background-image: url(../images/2MOSAICO_RAMOS.jpg);
 	}
 	
 	#RAMOS:hover{
-		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.jpg);
 	}
 	
 	#SYDNEY{
-		background-image: url(../images/2MOSAICO_SYDNEY.png);
+		background-image: url(../images/2MOSAICO_SYDNEY.jpg);
 	}
 	
 	#SYDNEY:hover{
-		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.jpg);
 	}
 	
 	#TEVEZ{
-		background-image: url(../images/2MOSAICO_TEVEZ.png);
+		background-image: url(../images/2MOSAICO_TEVEZ.jpg);
 	}
 	
 	#TEVEZ:hover{
-		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.jpg);
 	}
 	
 	#VUOSO{
-		background-image: url(../images/2MOSAICO_VUOSO.png);
+		background-image: url(../images/2MOSAICO_VUOSO.jpg);
 	}
 	
 	#VUOSO:hover{
-		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.jpg);
 	}
 	
 	#ZLATAN{
-		background-image: url(../images/2MOSAICO_ZLATAN.png);
+		background-image: url(../images/2MOSAICO_ZLATAN.jpg);
 	}
 	
 	#ZLATAN:hover{
-		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.jpg);
 	}
 	
 	#AGGER{
-		background-image: url(../images/2MOSAICO_AGGER.png);
+		background-image: url(../images/2MOSAICO_AGGER.jpg);
 	}
 	
 	#AGGER:hover{
-		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+		background-image: url(../images/2MOSAICO_AGGER_OVER.jpg);
 	}
 	
 	
@@ -921,91 +876,91 @@
 	}
 	
 	#ALI{
-		background-image: url(../images/2MOSAICO_ALI_OVER.png);
+		background-image: url(../images/2MOSAICO_ALI_OVER.jpg);
 	}
 	
 	#ALVES{
-		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+		background-image: url(../images/2MOSAICO_ALVES_OVER.jpg);
 	}
 	
 	#BECKHAM{
-		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.jpg);
 	}
 
 	
 	#CANNAVARO{
-		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.jpg);
 	}
 
 	#CISSE{
-		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+		background-image: url(../images/2MOSAICO_CISSE_OVER.jpg);
 	}
 	
 	#DEROSSI{
-		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.jpg);
 	}
 
 	
 	#HOWARD{
-		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.jpg);
 	}
 	
 
 	#JONG{
-		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+		background-image: url(../images/2MOSAICO_JONG_OVER.jpg);
 	}
 	
 
 	#LAYUN{
-		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.jpg);
 	}
 	
 
 	#MARADONA{
-		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.jpg);
 	}
 
 	
 	#MEIRELES{
-		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.jpg);
 	}
 
 	
 	#MESSI{
-		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+		background-image: url(../images/2MOSAICO_MESSI_OVER.jpg);
 	}
 	
 	#MORGAN{
-		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.jpg);
 	}
 	
 	
 	#NEYMAR{
-		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.jpg);
 	}
 
 	#RAMOS{
-		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.jpg);
 	}
 
 	#SYDNEY{
-		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.jpg);
 	}
 	
 	#TEVEZ{
-		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.jpg);
 	}
 
 	#VUOSO{
-		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.jpg);
 	}
 
 	#ZLATAN{
-		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.jpg);
 	}
 
 	#AGGER{
-		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+		background-image: url(../images/2MOSAICO_AGGER_OVER.jpg);
 	}
 }
 
@@ -1272,94 +1227,99 @@
 		background-size: 100%;
 	}
 	
+	.indepth_tatuajes_text{
+		font-weight: 300;
+	}
+	
+	
 	/******** mopsaico  **********/
 	
 	#ALI{
-		background-image: url(../images/2MOSAICO_ALI_OVER.png);
+		background-image: url(../images/2MOSAICO_ALI_OVER.jpg);
 	}
 	
 	#ALVES{
-		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+		background-image: url(../images/2MOSAICO_ALVES_OVER.jpg);
 	}
 	
 	#BECKHAM{
-		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.jpg);
 	}
 
 	
 	#CANNAVARO{
-		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.jpg);
 	}
 
 	#CISSE{
-		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+		background-image: url(../images/2MOSAICO_CISSE_OVER.jpg);
 	}
 	
 	#DEROSSI{
-		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.jpg);
 	}
 
 	
 	#HOWARD{
-		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.jpg);
 	}
 	
 
 	#JONG{
-		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+		background-image: url(../images/2MOSAICO_JONG_OVER.jpg);
 	}
 	
 
 	#LAYUN{
-		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.jpg);
 	}
 	
 
 	#MARADONA{
-		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.jpg);
 	}
 
 	
 	#MEIRELES{
-		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.jpg);
 	}
 
 	
 	#MESSI{
-		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+		background-image: url(../images/2MOSAICO_MESSI_OVER.jpg);
 	}
 	
 	#MORGAN{
-		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.jpg);
 	}
 	
 	
 	#NEYMAR{
-		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.jpg);
 	}
 
 	#RAMOS{
-		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.jpg);
 	}
 
 	#SYDNEY{
-		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.jpg);
 	}
 	
 	#TEVEZ{
-		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.jpg);
 	}
 
 	#VUOSO{
-		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.jpg);
 	}
 
 	#ZLATAN{
-		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.jpg);
 	}
 
 	#AGGER{
-		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+		background-image: url(../images/2MOSAICO_AGGER_OVER.jpg);
 	}
 	
 	
@@ -1375,6 +1335,10 @@
 		height: auto;
 		padding-top: 960px;
 		background-size: 860px auto;
+		
+	}
+	
+	.indepth_page_content .indepth_page_body{
 		padding-bottom: 40px;
 	}
 	
@@ -1385,11 +1349,23 @@
 	.indepth_tatuajes_text{
 		position: relative;
 		width: 90%;
-		margin: 20px auto
+		margin: 20px auto;
 	}
 	
 	.m_white .indepth_tatuajes_text{
 		color: white;
+	}
+	
+	.indepth_tatuajes_cuadros{
+		width: 90%;
+		margin: 10px auto;
+		max-width: 640px;
+		
+	}
+	
+	.indepth_tatuajes_cuadros img{
+		width: 100%;
+		margin: 10px auto;
 	}
 
 	
@@ -1399,7 +1375,7 @@
 	}
 	
 	#indepth_BECKHAM .indepth_page_body{
-		background-image: url(../images/BECK_PIXEL.png);
+		background-image: url(../images/BECK_PIXEL.jpg);
 		
 	}
 	
@@ -1407,76 +1383,152 @@
 		background-image: url(../images/ALI_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_ALI .indepth_page_body{
+		background-image: url(../images/ALI_PIXEL.jpg)
+	}
+	
 	#indepth_CISSE{
 		background-image: url(../images/CISSE_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_CISSE .indepth_page_body{
+		background-image: url(../images/CISSE_PIXEL.jpg)
 	}
 	
 	#indepth_CANNA{
 		background-image: url(../images/CANNA_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_CANNA .indepth_page_body{
+		background-image: url(../images/CANNA_PIXEL.jpg)
+	}
+	
 	#indepth_MARADO{
 		background-image: url(../images/MARADO_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_MARADO .indepth_page_body{
+		background-image: url(../images/MARADO_PIXEL.jpg)
+	}
+	
 	#indepth_ZLATAN{
 		background-image: url(../images/ZLATAN_FONDO_MOVIL.jpg)
+	}
+
+	#indepth_ZLATAN .indepth_page_body{
+		background-image: url(../images/ZLATAN_PIXEL.jpg)
 	}
 	
 	#indepth_MEIRELES{
 		background-image: url(../images/MEIRELES_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_MEIRELES .indepth_page_body{
+		background-image: url(../images/MEIRELES_PIXEL.jpg)
+	}
+	
 	#indepth_MESSI{
 		background-image: url(../images/MESSI_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_MESSI .indepth_page_body{
+		background-image: url(../images/MESSI_PIXEL.jpg)
 	}
 	
 	#indepth_MORGAN{
 		background-image: url(../images/MORGAN_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_MORGAN .indepth_page_body{
+		background-image: url(../images/MORGAN_PIXEL.jpg)
+	}
+	
 	#indepth_NEY{
 		background-image: url(../images/NEY_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_NEY .indepth_page_body{
+		background-image: url(../images/NEY_PIXEL.jpg)
 	}
 	
 	#indepth_VUOSO{
 		background-image: url(../images/VUOSO_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_VUOSO .indepth_page_body{
+		background-image: url(../images/VUOSO_PIXEL.jpg)
+	}
+	
 	#indepth_RAMOS{
 		background-image: url(../images/RAMOS_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_RAMOS .indepth_page_body{
+		background-image: url(../images/RAMOS_PIXEL.jpg)
 	}
 	
 	#indepth_JONG{
 		background-image: url(../images/JONG_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_JONG .indepth_page_body{
+		background-image: url(../images/JONG_PIXEL.jpg)
+	}
+	
 	#indepth_AGGER{
 		background-image: url(../images/AGGER_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_AGGER .indepth_page_body{
+		background-image: url(../images/AGGER_PIXEL.jpg)
 	}
 	
 	#indepth_DEROSSI{
 		background-image: url(../images/DEROSSI_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_DEROSSI .indepth_page_body{
+		background-image: url(../images/DEROSSI_PIXEL.jpg)
+	}
+	
 	#indepth_TEVEZ{
 		background-image: url(../images/TEVEZ_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_TEVEZ .indepth_page_body{
+		background-image: url(../images/TEVEZ_PIXEL.jpg)
 	}
 	
 	#indepth_LAYUN{
 		background-image: url(../images/LAYUN_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_LAYUN .indepth_page_body{
+		background-image: url(../images/LAYUN_PIXEL.jpg)
+	}
+	
 	#indepth_SYDENY{
-		background-image: url(../images/SYDENY_FONDO_MOVIL.jpg)
+		background-image: url(../images/SYDENY_FONDO_MOVIL.jpg);
+	}
+	
+	#indepth_SYDENY .indepth_page_body{
+		background-image: url(../images/SYDENY_PIXEL.jpg)
 	}
 	
 	#indepth_ALVES{
 		background-image: url(../images/ALVES_FONDO_MOVIL.jpg)
 	}
 	
+	#indepth_ALVES .indepth_page_body{
+		background-image: url(../images/ALVES_PIXEL.jpg)
+	}
+	
 	#indepth_HOWARD{
 		background-image: url(../images/HOWARD_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_HOWARD .indepth_page_body{
+		background-image: url(../images/HOWARD_PIXEL.jpg)
 	}
 	
 
@@ -1512,35 +1564,41 @@
 }
 
 @media screen and (max-width: 600px) {
-	.indepth_playera{
-		max-width: 450px;
-		width: 95%;
-		margin: auto;
-	}
 	
-	.indepth_playera_costado{
-		width: 95%;
-		max-width: 400px;
-	}
-	
-	.indepth_playera_side_item{
+	#indepth_mosaico{
 		display: none;
 	}
 	
-	
-
-	
-	.indepth_logo_img_cover{
-		width: 95%;
+	#indepth_cover .indepth_parallax_back{
+		background-image: url(../images/1-PORTADA_FONDO_MOVIL.png);
+		background-position: center top;
+		background-size: 100%;
+		
 	}
-
-
-	.indepth_playera_side{
+	
+	.indepth_cover_movil{
 		width: 100%;
+		
+	}
+	
+	.indepth_cover_movil img{
+		width: 100%;
+		display: table;
+	}
+	
+	.indepth_container_cover{
+		display: none;
 	}
 	
 	body{
 		webkit-overflow-scrolling: touch;
+	}
+	
+	.indepth_page_image{
+		height: auto;
+		padding-top: 620px;
+		background-size: 600px auto;
+		
 	}
 	
 }
@@ -1549,19 +1607,12 @@
 
 
 @media screen and (max-width: 414px) {
-	.indepth_logo_team{
-		margin-bottom: 50px;
+	.indepth_page_image{
+		height: auto;
+		padding-top: 440px;
+		background-size: 414px auto;
+		
 	}
-	
-
-	.indepth_share_logos_item{
-		height: 90px;
-	}
-	
-	.indepth_share_logos_item img{
-		height: 100%;
-	}
-	
 	
 
 
