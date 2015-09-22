@@ -129,11 +129,10 @@
 	max-width: 900px;
 	height: 100%;
 	z-index: 2;
-	background-color: rgba(255, 255, 255, 0.5);
 }
  
 #indepth_cover .indepth_parallax_back{
-	background-image: url(../images/1PORTADA_Fondo.png);
+	background-image: url(../images/1PORTADA_Fondo.jpg);
 	background-size: 1920px auto;
 	background-position: center top;
 	text-align: center;
@@ -196,170 +195,7 @@
 	
 }
 
-/***** mosaico ******/
 
-#ALI{
-	background-image: url(../images/2MOSAICO_ALI.png);
-}
-
-#ALI:hover{
-	background-image: url(../images/2MOSAICO_ALI_OVER.png);
-}
-
-#ALVES{
-	background-image: url(../images/2MOSAICO_ALVES.png);
-}
-
-#ALVES:hover{
-	background-image: url(../images/2MOSAICO_ALVES_OVER.png);
-}
-
-#BECKHAM{
-	background-image: url(../images/2MOSAICO_BECKHAM.png);
-}
-
-#BECKHAM:hover{
-	background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
-}
-
-#CANNAVARO{
-	background-image: url(../images/2MOSAICO_CANNAVARO.png);
-}
-
-#CANNAVARO:hover{
-	background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
-}
-
-#CISSE{
-	background-image: url(../images/2MOSAICO_CISSE.png);
-}
-
-#CISSE:hover{
-	background-image: url(../images/2MOSAICO_CISSE_OVER.png);
-}
-
-#DEROSSI:hover{
-	background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
-}
-
-#DEROSSI{
-	background-image: url(../images/2MOSAICO_DEROSSI.png);
-}
-
-#HOWARD:hover{
-	background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
-}
-
-#HOWARD{
-	background-image: url(../images/2MOSAICO_HOWARD.png);
-}
-
-#JONG{
-	background-image: url(../images/2MOSAICO_JONG.png);
-}
-
-#JONG:hover{
-	background-image: url(../images/2MOSAICO_JONG_OVER.png);
-}
-
-#LAYUN{
-	background-image: url(../images/2MOSAICO_LAYUN.png);
-}
-
-#LAYUN:hover{
-	background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
-}
-
-#MARADONA{
-	background-image: url(../images/2MOSAICO_MARADONA.png);
-}
-
-#MARADONA:hover{
-	background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
-}
-
-#MEIRELES{
-	background-image: url(../images/2MOSAICO_MEIRELES.png);
-}
-
-#MEIRELES:hover{
-	background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
-}
-
-#MESSI{
-	background-image: url(../images/2MOSAICO_MESSI.png);
-}
-
-#MESSI:hover{
-	background-image: url(../images/2MOSAICO_MESSI_OVER.png);
-}
-
-#MORGAN{
-	background-image: url(../images/2MOSAICO_MORGAN.png);
-}
-
-#MORGAN:hover{
-	background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
-}
-
-#NEYMAR{
-	background-image: url(../images/2MOSAICO_NEYMAR.png);
-}
-
-#NEYMAR:hover{
-	background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
-}
-
-#RAMOS{
-	background-image: url(../images/2MOSAICO_RAMOS.png);
-}
-
-#RAMOS:hover{
-	background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
-}
-
-#SYDNEY{
-	background-image: url(../images/2MOSAICO_SYDNEY.png);
-}
-
-#SYDNEY:hover{
-	background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
-}
-
-#TEVEZ{
-	background-image: url(../images/2MOSAICO_TEVEZ.png);
-}
-
-#TEVEZ:hover{
-	background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
-}
-
-#VUOSO{
-	background-image: url(../images/2MOSAICO_VUOSO.png);
-}
-
-#VUOSO:hover{
-	background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
-}
-
-#ZLATAN{
-	background-image: url(../images/2MOSAICO_ZLATAN.png);
-}
-
-#ZLATAN:hover{
-	background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
-}
-
-#AGGER{
-	background-image: url(../images/2MOSAICO_AGGER.png);
-}
-
-#AGGER:hover{
-	background-image: url(../images/2MOSAICO_AGGER_OVER.png);
-}
-
-
-/*** fin del mosaico  ******/
 
 .indepth_tatuajes_text{
 	font-size: 20px;
@@ -392,286 +228,91 @@
 /******* fondos *******/
 
 #indepth_BECKHAM{
-	background-image: url(../images/BECK_FONDO.png);
+	background-image: url(../images/BECK_FONDO.jpg);
 }
 
 #indepth_ALI{
-	background-image: url(../images/ALI_FONDO.png)
+	background-image: url(../images/ALI_FONDO.jpg)
 }
 
 #indepth_CISSE{
-	background-image: url(../images/CISSE_FONDO.png)
+	background-image: url(../images/CISSE_FONDO.jpg)
 }
 
 #indepth_CANNA{
-	background-image: url(../images/CANNA_FONDO.png)
+	background-image: url(../images/CANNA_FONDO.jpg)
 }
 
 #indepth_MARADO{
-	background-image: url(../images/MARADO_FONDO.png)
+	background-image: url(../images/MARADO_FONDO.jpg)
 }
 
 #indepth_ZLATAN{
-	background-image: url(../images/ZLATAN_FONDO.png)
+	background-image: url(../images/ZLATAN_FONDO.jpg)
 }
 
 #indepth_MEIRELES{
-	background-image: url(../images/MEIRELES_FONDO.png)
+	background-image: url(../images/MEIRELES_FONDO.jpg)
 }
 
 #indepth_MESSI{
-	background-image: url(../images/MESSI_FONDO.png)
+	background-image: url(../images/MESSI_FONDO.jpg)
 }
 
 #indepth_MORGAN{
-	background-image: url(../images/MORGAN_FONDO.png)
+	background-image: url(../images/MORGAN_FONDO.jpg)
 }
 
 #indepth_NEY{
-	background-image: url(../images/NEY_FONDO.png)
+	background-image: url(../images/NEY_FONDO.jpg)
 }
 
 #indepth_VUOSO{
-	background-image: url(../images/VUOSO_FONDO.png)
+	background-image: url(../images/VUOSO_FONDO.jpg)
 }
 
 #indepth_RAMOS{
-	background-image: url(../images/RAMOS_FONDO.png)
+	background-image: url(../images/RAMOS_FONDO.jpg)
 }
 
 #indepth_JONG{
-	background-image: url(../images/JONG_FONDO.png)
+	background-image: url(../images/JONG_FONDO.jpg)
 }
 
-#indepth_MEIRELES{
-	background-image: url(../images/MEIRELES_FONDO.png)
+#indepth_AGGER{
+	background-image: url(../images/AGGER_FONDO.jpg)
 }
 
-#indepth_MEIRELES{
-	background-image: url(../images/MEIRELES_FONDO.png)
+#indepth_DEROSSI{
+	background-image: url(../images/DEROSSI_FONDO.jpg)
 }
 
-#indepth_MEIRELES{
-	background-image: url(../images/MEIRELES_FONDO.png)
+#indepth_TEVEZ{
+	background-image: url(../images/TEVEZ_FONDO.jpg)
 }
 
-#indepth_MEIRELES{
-	background-image: url(../images/MEIRELES_FONDO.png)
+#indepth_LAYUN{
+	background-image: url(../images/LAYUN_FONDO.jpg)
 }
+
+#indepth_SYDENY{
+	background-image: url(../images/SYDENY_FONDO.jpg)
+}
+
+#indepth_ALVES{
+	background-image: url(../images/ALVES_FONDO.jpg)
+}
+
+#indepth_HOWARD{
+	background-image: url(../images/HOWARD_FONDO.jpg)
+}
+
+
+
 
 /***** fin fondos *******/
 
-/****** inicio estilos textos *****/
 
-#indepth_BECKHAM .indepth_tatuajes_text{
-	width: 340px;
-	top: 310px;
-	right: 30px;
-}
-
-#indepth_BECKHAM .indepth_tatuajes_imgs{
-	width: 560px;
-	right: 10px;
-	bottom: 80px;
-}
-
-#indepth_ALI .indepth_tatuajes_text{
-	width: 430px;
-	top: 370px;
-	left: 50px;
-}
-
-#indepth_ALI .indepth_tatuajes_imgs{
-	width: 430px;
-	left: 20px;
-	bottom: 135px;
-}
-
-#indepth_CISSE .indepth_tatuajes_text{
-	width: 500px;
-	top: 370px;
-	right: 30px;
-}
-
-#indepth_CISSE .indepth_tatuajes_imgs{
-	width: 600px;
-	right: 20px;
-	bottom: 60px;
-}
-
-#indepth_CANNA .indepth_tatuajes_text{
-	width: 500px;
-	top: 580px;
-	left: 20px;
-	color: white;
-}
-
-#indepth_CANNA .indepth_tatuajes_imgs{
-	width: 440px;
-	left: 20px;
-	bottom: 10px;
-}
-
-#indepth_MARADO .indepth_tatuajes_text{
-	width: 500px;
-	top: 440px;
-	right: 30px;
-}
-
-#indepth_MARADO .indepth_tatuajes_imgs{
-	width: 520px;
-	right: 40px;
-	bottom: 40px;
-}
-
-#indepth_ZLATAN .indepth_tatuajes_text{
-	width: 650px;
-	top: 430px;
-	right: 10px;
-	color: white;
-}
-
-#indepth_ZLATAN .indepth_tatuajes_imgs{
-	width: 650px;
-	right: 20px;
-	bottom: 0px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_text{
-	width: 420px;
-	top: 330px;
-	right: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 30px;
-	bottom: 20px;
-}
-
-#indepth_MESSI .indepth_tatuajes_text{
-	width: 480px;
-	top: 290px;
-	right: 30px;
-	color: white;
-}
-
-#indepth_MESSI .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 0px;
-	bottom: 10px;
-}
-
-#indepth_MORGAN .indepth_tatuajes_text{
-	width: 460px;
-	top: 410px;
-	left: 50px;
-}
-
-#indepth_MORGAN .indepth_tatuajes_imgs{
-	width: 460px;
-	LEFT: 50px;
-	bottom: 10px;
-}
-
-#indepth_NEY .indepth_tatuajes_text{
-	width: 460px;
-	top: 340px;
-	left: 50px;
-}
-
-#indepth_NEY .indepth_tatuajes_imgs{
-	width: 610px;
-	left: 0px;
-	bottom: 100px;
-}
-
-#indepth_VUOSO .indepth_tatuajes_text{
-	width: 450px;
-	top: 400px;
-	right: 60px;
-	color: white;
-}
-
-#indepth_VUOSO .indepth_tatuajes_imgs{
-	width: 470px;
-	right: 50px;
-	bottom: 100px;
-}
-
-#indepth_RAMOS .indepth_tatuajes_text{
-	width: 500px;
-	top: 390px;
-	LEFT: 60px;
-}
-
-#indepth_RAMOS .indepth_tatuajes_imgs{
-	width: 580px;
-	left: 10px;
-	bottom: 20px;
-}
-
-#indepth_JONG .indepth_tatuajes_text{
-	width: 330px;
-	top: 430px;
-	left: 70px;
-}
-
-#indepth_JONG .indepth_tatuajes_imgs{
-	width: 520px;
-	left: 0px;
-	bottom: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_text{
-	width: 420px;
-	top: 330px;
-	right: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 30px;
-	bottom: 20px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_text{
-	width: 420px;
-	top: 330px;
-	right: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 30px;
-	bottom: 20px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_text{
-	width: 420px;
-	top: 330px;
-	right: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 30px;
-	bottom: 20px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_text{
-	width: 420px;
-	top: 330px;
-	right: 60px;
-}
-
-#indepth_MEIRELES .indepth_tatuajes_imgs{
-	width: 500px;
-	right: 30px;
-	bottom: 20px;
-}
-
-/******* fin estilos **********/
 
 
 .indepth_page_content .indepth_container{
@@ -864,60 +505,6 @@
 /****DINAMICO****/
 
 
-
-
-
-#indepth_page1 {
-	background-image: url(../images/BUZZ_Fondo.png);
-}
-
-#indepth_page2 {
-	background-image: url(../images/MINION_Fondo.png);
-}
-
-#indepth_page3 {
-	background-image: url(../images/NORMAN_Fondo.png);
-}
-
-#indepth_page4 {
-	background-image: url(../images/DRAGON_Fondo.png);
-}
-
-#indepth_page5 {
-	background-image: url(../images/MONSTER_Fondo.png);
-}
-
-#indepth_page6 {
-	background-image: url(../images/SHREK_Fondo.png);
-}
-
-#indepth_page7 {
-	background-image: url(../images/JACK_Fondo.png);
-}
-
-#indepth_page8 {
-	background-image: url(../images/INTENSA_Fondo.png);
-}
-
-#indepth_page9 {
-	background-image: url(../images/HUEVOS_Fondo.png);
-}
-#indepth_page10{
-	padding-bottom: 120px;
-	padding-top: 80px;
-}
-
-.indepth_container_cover{
-}
-
-.indepth_container_cover div{
-	text-align: center;
-}
-
-.indepth_parallax_back{
-	display: table;
-}
-
 #indepth_share_card{
 	width: 320px;
 	height: auto;
@@ -1027,8 +614,172 @@
 
 /* mobile adecuations */
 
-@media screen and (max-width: 1960px) {
+@media screen and (min-width: 860px) {
 	
+	/***** mosaico ******/
+	
+	#ALI{
+		background-image: url(../images/2MOSAICO_ALI.png);
+	}
+	
+	#ALI:hover{
+		background-image: url(../images/2MOSAICO_ALI_OVER.png);
+	}
+	
+	#ALVES{
+		background-image: url(../images/2MOSAICO_ALVES.png);
+	}
+	
+	#ALVES:hover{
+		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+	}
+	
+	#BECKHAM{
+		background-image: url(../images/2MOSAICO_BECKHAM.png);
+	}
+	
+	#BECKHAM:hover{
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+	}
+	
+	#CANNAVARO{
+		background-image: url(../images/2MOSAICO_CANNAVARO.png);
+	}
+	
+	#CANNAVARO:hover{
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+	}
+	
+	#CISSE{
+		background-image: url(../images/2MOSAICO_CISSE.png);
+	}
+	
+	#CISSE:hover{
+		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+	}
+	
+	#DEROSSI:hover{
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+	}
+	
+	#DEROSSI{
+		background-image: url(../images/2MOSAICO_DEROSSI.png);
+	}
+	
+	#HOWARD:hover{
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+	}
+	
+	#HOWARD{
+		background-image: url(../images/2MOSAICO_HOWARD.png);
+	}
+	
+	#JONG{
+		background-image: url(../images/2MOSAICO_JONG.png);
+	}
+	
+	#JONG:hover{
+		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+	}
+	
+	#LAYUN{
+		background-image: url(../images/2MOSAICO_LAYUN.png);
+	}
+	
+	#LAYUN:hover{
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+	}
+	
+	#MARADONA{
+		background-image: url(../images/2MOSAICO_MARADONA.png);
+	}
+	
+	#MARADONA:hover{
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+	}
+	
+	#MEIRELES{
+		background-image: url(../images/2MOSAICO_MEIRELES.png);
+	}
+	
+	#MEIRELES:hover{
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+	}
+	
+	#MESSI{
+		background-image: url(../images/2MOSAICO_MESSI.png);
+	}
+	
+	#MESSI:hover{
+		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+	}
+	
+	#MORGAN{
+		background-image: url(../images/2MOSAICO_MORGAN.png);
+	}
+	
+	#MORGAN:hover{
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+	}
+	
+	#NEYMAR{
+		background-image: url(../images/2MOSAICO_NEYMAR.png);
+	}
+	
+	#NEYMAR:hover{
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+	}
+	
+	#RAMOS{
+		background-image: url(../images/2MOSAICO_RAMOS.png);
+	}
+	
+	#RAMOS:hover{
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+	}
+	
+	#SYDNEY{
+		background-image: url(../images/2MOSAICO_SYDNEY.png);
+	}
+	
+	#SYDNEY:hover{
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+	}
+	
+	#TEVEZ{
+		background-image: url(../images/2MOSAICO_TEVEZ.png);
+	}
+	
+	#TEVEZ:hover{
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+	}
+	
+	#VUOSO{
+		background-image: url(../images/2MOSAICO_VUOSO.png);
+	}
+	
+	#VUOSO:hover{
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+	}
+	
+	#ZLATAN{
+		background-image: url(../images/2MOSAICO_ZLATAN.png);
+	}
+	
+	#ZLATAN:hover{
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+	}
+	
+	#AGGER{
+		background-image: url(../images/2MOSAICO_AGGER.png);
+	}
+	
+	#AGGER:hover{
+		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+	}
+	
+	
+	/*** fin del mosaico  ******/
 }
 
 
@@ -1121,46 +872,11 @@
 
 /*** Movil ****/
 @media screen and (max-width:1100px) {
-	.indepth_page_content .indepth_page_body{
-		max-width: 900px;
-	}
+
 	
-	.indepth_playera{
-		width: 350px;
-	}
 	
-	.indepth_playera_costado{
-		width: 320px;
-	}
 	
-	.indepth_playera_costado img{
-		width: 100%;
-	}
-	
-	.indepth_playera_side_item{
-		width: 260px;
-	}
-	
-	.indepth_playera_side_item img{
-		width: 100%;
-	}
-	
-	.indepth_playera_side_item.izq{
-		left: 6%;
-	}
-	
-	.indepth_playera_side_item.der{
-		right: 6%;
-	}
-	
-	.indepth_share_logos{
-		max-width: 700px;
-	}
-	
-	.indepth_page_image{
-		height: 1380px;
-		background-size: auto 1120px;
-	}
+
 }
 
 @media screen and (max-height: 730px) {
@@ -1183,62 +899,587 @@
 	}
 
 
-	.indepth_docs, .indepth_docs_container{
-		width: 800px;
-		height: 443px;
-
-	}
-
-	.indepth_docs_container{
-		margin-left: 0px;
-	}
-	.indepth_docs_r{
-		width: 248px;
-	}
-
-	.indepth_docs_left{
-		width: 550px;
-
-	}
-
-	.indepth_docs_title{
-		font-size: 18px;
-	}
-
-	.indepth_docs_text{
-		font-size: 14px;
+	.indepth_mosaico_item{
+		width: 150px;
+		height: 150px;
+		background-size: 100%;
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-height: 768px) {
 
-	.indepth_playera{
-		width: 300px;
+	.indepth_logo_cover{
+		width: 500px;
 	}
 	
-	.indepth_playera_side{
-		width: 680px;
-		margin: auto;
-		margin-top: 30px;
+	.indepth_logo_img_cover{
+		margin-top: -20px;
 	}
 	
-	.indepth_playera_side_item{
-		width: 240px;
-		top: 20px;
+	.indepth_imgs{
+		padding-bottom: 20px;
 	}
 	
-	.indepth_playera_side_item.izq{
-		left: 0%;
+	#ALI{
+		background-image: url(../images/2MOSAICO_ALI_OVER.png);
 	}
 	
-	.indepth_playera_side_item.der{
-		right: 0%;
+	#ALVES{
+		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
 	}
 	
-	.indepth_page_image {
-	    height: 1300px;
-	    background-size: auto 1060px;
+	#BECKHAM{
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
 	}
+
+	
+	#CANNAVARO{
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+	}
+
+	#CISSE{
+		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+	}
+	
+	#DEROSSI{
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+	}
+
+	
+	#HOWARD{
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+	}
+	
+
+	#JONG{
+		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+	}
+	
+
+	#LAYUN{
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+	}
+	
+
+	#MARADONA{
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+	}
+
+	
+	#MEIRELES{
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+	}
+
+	
+	#MESSI{
+		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+	}
+	
+	#MORGAN{
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+	}
+	
+	
+	#NEYMAR{
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+	}
+
+	#RAMOS{
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+	}
+
+	#SYDNEY{
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+	}
+	
+	#TEVEZ{
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+	}
+
+	#VUOSO{
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+	}
+
+	#ZLATAN{
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+	}
+
+	#AGGER{
+		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+	}
+}
+
+@media screen and (min-width: 861px) {
+	/****** inicio estilos textos *****/
+
+#indepth_BECKHAM .indepth_tatuajes_text{
+	width: 340px;
+	top: 310px;
+	right: 30px;
+}
+
+#indepth_BECKHAM .indepth_tatuajes_imgs{
+	width: 560px;
+	right: 10px;
+	bottom: 80px;
+}
+
+#indepth_ALI .indepth_tatuajes_text{
+	width: 430px;
+	top: 370px;
+	left: 50px;
+}
+
+#indepth_ALI .indepth_tatuajes_imgs{
+	width: 430px;
+	left: 20px;
+	bottom: 135px;
+}
+
+#indepth_CISSE .indepth_tatuajes_text{
+	width: 500px;
+	top: 370px;
+	right: 30px;
+}
+
+#indepth_CISSE .indepth_tatuajes_imgs{
+	width: 600px;
+	right: 20px;
+	bottom: 60px;
+}
+
+#indepth_CANNA .indepth_tatuajes_text{
+	width: 500px;
+	top: 580px;
+	left: 20px;
+	color: white;
+}
+
+#indepth_CANNA .indepth_tatuajes_imgs{
+	width: 440px;
+	left: 20px;
+	bottom: 10px;
+}
+
+#indepth_MARADO .indepth_tatuajes_text{
+	width: 500px;
+	top: 440px;
+	right: 30px;
+}
+
+#indepth_MARADO .indepth_tatuajes_imgs{
+	width: 520px;
+	right: 40px;
+	bottom: 40px;
+}
+
+#indepth_ZLATAN .indepth_tatuajes_text{
+	width: 650px;
+	top: 430px;
+	right: 10px;
+	color: white;
+}
+
+#indepth_ZLATAN .indepth_tatuajes_imgs{
+	width: 650px;
+	right: 20px;
+	bottom: 0px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_text{
+	width: 420px;
+	top: 330px;
+	right: 60px;
+}
+
+#indepth_MEIRELES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_MESSI .indepth_tatuajes_text{
+	width: 480px;
+	top: 290px;
+	right: 30px;
+	color: white;
+}
+
+#indepth_MESSI .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 0px;
+	bottom: 10px;
+}
+
+#indepth_MORGAN .indepth_tatuajes_text{
+	width: 460px;
+	top: 410px;
+	left: 50px;
+}
+
+#indepth_MORGAN .indepth_tatuajes_imgs{
+	width: 460px;
+	LEFT: 50px;
+	bottom: 10px;
+}
+
+#indepth_NEY .indepth_tatuajes_text{
+	width: 460px;
+	top: 340px;
+	left: 50px;
+}
+
+#indepth_NEY .indepth_tatuajes_imgs{
+	width: 610px;
+	left: 0px;
+	bottom: 100px;
+}
+
+#indepth_VUOSO .indepth_tatuajes_text{
+	width: 450px;
+	top: 400px;
+	right: 60px;
+	color: white;
+}
+
+#indepth_VUOSO .indepth_tatuajes_imgs{
+	width: 470px;
+	right: 50px;
+	bottom: 100px;
+}
+
+#indepth_RAMOS .indepth_tatuajes_text{
+	width: 500px;
+	top: 390px;
+	LEFT: 60px;
+}
+
+#indepth_RAMOS .indepth_tatuajes_imgs{
+	width: 580px;
+	left: 10px;
+	bottom: 20px;
+}
+
+#indepth_JONG .indepth_tatuajes_text{
+	width: 330px;
+	top: 430px;
+	left: 70px;
+}
+
+#indepth_JONG .indepth_tatuajes_imgs{
+	width: 520px;
+	left: 0px;
+	bottom: 60px;
+}
+
+#indepth_AGGER .indepth_tatuajes_text{
+	width: 460px;
+	top: 330px;
+	LEFT: 30px;
+}
+
+#indepth_AGGER .indepth_tatuajes_imgs{
+	width: 510px;
+	LEFT: 0px;
+	bottom: 50px;
+}
+
+#indepth_DEROSSI .indepth_tatuajes_text{
+	width: 330px;
+	top: 370px;
+	right: 60px;
+}
+
+#indepth_DEROSSI .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_TEVEZ .indepth_tatuajes_text{
+	width: 600px;
+	top: 560px;
+	left: 40px;
+	color: white;
+}
+
+#indepth_TEVEZ .indepth_tatuajes_imgs{
+	width: 610px;
+	left: 30px;
+	bottom: 10px;
+}
+
+#indepth_LAYUN .indepth_tatuajes_text{
+	width: 480px;
+	top: 400px;
+	LEFT: 60px;
+	color: white;
+}
+
+#indepth_LAYUN .indepth_tatuajes_imgs{
+	width: 500px;
+	left: 30px;
+	bottom: 100px;
+}
+
+#indepth_SYDENY .indepth_tatuajes_text{
+	width: 460px;
+	top: 350px;
+	left: 30px;
+	color: white;
+}
+
+#indepth_SYDENY .indepth_tatuajes_imgs{
+	width: 500px;
+	LEFT: 30px;
+	bottom: 50px;
+}
+
+#indepth_ALVES .indepth_tatuajes_text{
+	width: 420px;
+	top: 400Px;
+	right: 40px;
+}
+
+#indepth_ALVES .indepth_tatuajes_imgs{
+	width: 500px;
+	right: 30px;
+	bottom: 20px;
+}
+
+#indepth_HOWARD .indepth_tatuajes_text{
+	width: 460px;
+	top: 420px;
+	LEFT: 60px;
+}
+
+#indepth_HOWARD .indepth_tatuajes_imgs{
+	width: 500px;
+	LEFT: 30px;
+	bottom: 30px;
+}
+
+
+
+/******* fin estilos **********/
+}
+
+@media screen and (max-width: 860px) {
+
+	.indepth_mosaico_item{
+		width: 120px;
+		height: 120px;
+		background-size: 100%;
+	}
+	
+	/******** mopsaico  **********/
+	
+	#ALI{
+		background-image: url(../images/2MOSAICO_ALI_OVER.png);
+	}
+	
+	#ALVES{
+		background-image: url(../images/2MOSAICO_ALVES_OVER.png);
+	}
+	
+	#BECKHAM{
+		background-image: url(../images/2MOSAICO_BECKHAM_OVER.png);
+	}
+
+	
+	#CANNAVARO{
+		background-image: url(../images/2MOSAICO_CANNAVARO_OVER.png);
+	}
+
+	#CISSE{
+		background-image: url(../images/2MOSAICO_CISSE_OVER.png);
+	}
+	
+	#DEROSSI{
+		background-image: url(../images/2MOSAICO_DEROSSI_OVER.png);
+	}
+
+	
+	#HOWARD{
+		background-image: url(../images/2MOSAICO_HOWARD_OVER.png);
+	}
+	
+
+	#JONG{
+		background-image: url(../images/2MOSAICO_JONG_OVER.png);
+	}
+	
+
+	#LAYUN{
+		background-image: url(../images/2MOSAICO_LAYUN_OVER.png);
+	}
+	
+
+	#MARADONA{
+		background-image: url(../images/2MOSAICO_MARADONA_OVER.png);
+	}
+
+	
+	#MEIRELES{
+		background-image: url(../images/2MOSAICO_MEIRELES_OVER.png);
+	}
+
+	
+	#MESSI{
+		background-image: url(../images/2MOSAICO_MESSI_OVER.png);
+	}
+	
+	#MORGAN{
+		background-image: url(../images/2MOSAICO_MORGAN_OVER.png);
+	}
+	
+	
+	#NEYMAR{
+		background-image: url(../images/2MOSAICO_NEYMAR_OVER.png);
+	}
+
+	#RAMOS{
+		background-image: url(../images/2MOSAICO_RAMOS_OVER.png);
+	}
+
+	#SYDNEY{
+		background-image: url(../images/2MOSAICO_SYDNEY_OVER.png);
+	}
+	
+	#TEVEZ{
+		background-image: url(../images/2MOSAICO_TEVEZ_OVER.png);
+	}
+
+	#VUOSO{
+		background-image: url(../images/2MOSAICO_VUOSO_OVER.png);
+	}
+
+	#ZLATAN{
+		background-image: url(../images/2MOSAICO_ZLATAN_OVER.png);
+	}
+
+	#AGGER{
+		background-image: url(../images/2MOSAICO_AGGER_OVER.png);
+	}
+	
+	
+	/*** fin del mosaico  ******/
+	
+	
+	/******* fondos movil ******/
+	.indepth_page_body{
+		background-size: 860px auto;
+	}
+	
+	.indepth_page_image{
+		height: auto;
+		padding-top: 960px;
+		background-size: 860px auto;
+		padding-bottom: 40px;
+	}
+	
+	.indepth_tatuajes_imgs{
+		display: none;
+	}
+	
+	.indepth_tatuajes_text{
+		position: relative;
+		width: 90%;
+		margin: 20px auto
+	}
+	
+	.m_white .indepth_tatuajes_text{
+		color: white;
+	}
+
+	
+	#indepth_BECKHAM{
+		background-image: url(../images/BECK_FONDO_MOVIL.jpg);
+		
+	}
+	
+	#indepth_BECKHAM .indepth_page_body{
+		background-image: url(../images/BECK_PIXEL.png);
+		
+	}
+	
+	#indepth_ALI{
+		background-image: url(../images/ALI_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_CISSE{
+		background-image: url(../images/CISSE_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_CANNA{
+		background-image: url(../images/CANNA_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_MARADO{
+		background-image: url(../images/MARADO_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_ZLATAN{
+		background-image: url(../images/ZLATAN_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_MEIRELES{
+		background-image: url(../images/MEIRELES_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_MESSI{
+		background-image: url(../images/MESSI_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_MORGAN{
+		background-image: url(../images/MORGAN_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_NEY{
+		background-image: url(../images/NEY_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_VUOSO{
+		background-image: url(../images/VUOSO_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_RAMOS{
+		background-image: url(../images/RAMOS_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_JONG{
+		background-image: url(../images/JONG_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_AGGER{
+		background-image: url(../images/AGGER_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_DEROSSI{
+		background-image: url(../images/DEROSSI_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_TEVEZ{
+		background-image: url(../images/TEVEZ_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_LAYUN{
+		background-image: url(../images/LAYUN_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_SYDENY{
+		background-image: url(../images/SYDENY_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_ALVES{
+		background-image: url(../images/ALVES_FONDO_MOVIL.jpg)
+	}
+	
+	#indepth_HOWARD{
+		background-image: url(../images/HOWARD_FONDO_MOVIL.jpg)
+	}
+	
+
 
 }
 
@@ -1267,10 +1508,6 @@
 		right: 0%;
 	}
 	
-	.indepth_page_image {
-	    height: 1200px;
-	    background-size: auto 970px;
-	}
 
 }
 
@@ -1291,10 +1528,7 @@
 	}
 	
 	
-	.indepth_page_image {
-	    height: 2250px;
-	    background-size: auto 2000px;
-	}
+
 	
 	.indepth_logo_img_cover{
 		width: 95%;
@@ -1319,11 +1553,7 @@
 		margin-bottom: 50px;
 	}
 	
-	.indepth_page_image {
-	    height: 2150px;
-	    background-size: auto 1900px;
-	}
-	
+
 	.indepth_share_logos_item{
 		height: 90px;
 	}
@@ -1339,26 +1569,17 @@
 	
 @media screen and (max-width: 375px) {
 	
-	.indepth_page_image {
-	    height: 2000px;
-	    background-size: auto 1750px;
-	}
+
 	
 }
 	
 @media screen and (max-width: 360px) {
-	.indepth_page_image {
-	    height: 1920px;
-	    background-size: auto 1650px;
-	}
+
 	
 }
 
 @media screen and (max-width: 320px) {
-	.indepth_page_image {
-	    height: 1770px;
-	    background-size: auto 1480px;
-	}
+	
 	
 }
 
