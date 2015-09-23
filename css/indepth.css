@@ -170,18 +170,20 @@
 
 #indepth_mosaico{
 	width: 96%;
-	max-width: 920px;
+	max-width: 800px;
 	margin: auto;
 	text-align: center;
-	padding: 40px 0;
+	padding: 20px 0;
+	max-height: 1000px;
 }
 
 .indepth_mosaico_item{
-	width: 165px;
-	height: 165px;
+	width: 120px;
+	height: 120px;
 	display: inline-block;
 	cursor: pointer;
 	margin: 5px;
+	background-size: 100%;
 }
 
 .indepth_mosaico_item img{
@@ -202,6 +204,7 @@
 	font-size: 20px;
 	font-family: 'Roboto condensed';
 	position: absolute;
+	font-weight: 300;
 }
 
 .indepth_tatuaje_item{
@@ -1087,8 +1090,8 @@
 }
 
 #indepth_MORGAN .indepth_tatuajes_imgs{
-	width: 460px;
-	LEFT: 50px;
+	width: 260px;
+	LEFT: 30px;
 	bottom: 10px;
 }
 

@@ -23,7 +23,7 @@ $(document).on("click",".indepth_mosaico_item",function(){
 
 $(document).on("click",".indepth_tatuaje_item",function(){
 	var parent = $(this).parent().parent();
-	parent.css("z-index","100");
+	parent.parent().css("z-index",100);
 	var num_t=$(this).attr("num");
 	var th = parent.find(".indepth_i").eq(num_t-1);
 	th.css("display","table-cell");
