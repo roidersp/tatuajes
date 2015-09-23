@@ -24,13 +24,17 @@ $(document).on("click",".indepth_mosaico_item",function(){
 $(document).on("click",".indepth_tatuaje_item",function(){
 	var parent = $(this).parent().parent();
 	var num_t=$(this).attr("num");
-	console.log(parent);
 	var th = parent.find(".indepth_i").eq(num_t-1);
-	console.log(th);
 	th.css("display","table-cell");
 	parent.find(".indepth_tatuajes_cuadros").fadeIn();
 	parent.find(".indepth_tatuajes_cuadros").css("display","table");
-	
+	document.getElementsByTagName("html")[0].style.overflow = "hidden";
+});
+
+$(document).on("click",".indepth_tatuajes_cuadros",function(){
+	$(".indepth_i").hide();
+	$(".indepth_tatuajes_cuadros").fadeOut();
+	document.getElementsByTagName("html")[0].style.overflow = "auto";
 });
 
 $(document).on("click", "#indepth_button_ver" ,function(){
@@ -239,7 +243,6 @@ $(document).ready(function(){
     if(navigator.platform == 'iPad'){
 	    //$("#indepth_parallax_back").css("background-size", "100%");
 	    $("#indepth_parallax_back").css("background-attachment", "initial");
-	    console.log("ipad")
     }
 		loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
 		//$('#indepth_cover').css("height",(ventana_alto-60)+"px");
