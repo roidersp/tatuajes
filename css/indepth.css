@@ -24,7 +24,7 @@
 	}
 	
 	.indepth_share_item.facebook{
-		background-image: url(../images/1PORTADA_FONDO.jpg);
+		background-image: url(../images/boton_facebook.png);
 		
 	}
 	#indepth_share_card .indepth_share_item.facebook{
@@ -131,7 +131,7 @@
 }
  
 #indepth_cover .indepth_parallax_back{
-	background-image: url(../images/1PORTADA_Fondo.jpg);
+	background-image: url(../images/1PORTADA_FONDO.jpg);
 	background-size: 1920px auto;
 	background-position: center top;
 	text-align: center;
@@ -1596,7 +1596,6 @@
 	
 	.indepth_cover_movil{
 		width: 100%;
-		display: block;
 		
 	}
 	
