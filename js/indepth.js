@@ -23,6 +23,7 @@ $(document).on("click",".indepth_mosaico_item",function(){
 
 $(document).on("click",".indepth_tatuaje_item",function(){
 	var parent = $(this).parent().parent();
+	parent.css("z-index","100");
 	var num_t=$(this).attr("num");
 	var th = parent.find(".indepth_i").eq(num_t-1);
 	th.css("display","table-cell");
@@ -32,6 +33,7 @@ $(document).on("click",".indepth_tatuaje_item",function(){
 });
 
 $(document).on("click",".indepth_tatuajes_cuadros",function(){
+	$(".indepth_page_image").css("z-index","1");
 	$(".indepth_i").hide();
 	$(".indepth_tatuajes_cuadros").fadeOut();
 	document.getElementsByTagName("html")[0].style.overflow = "auto";
@@ -43,9 +45,7 @@ $(document).on("click", "#indepth_button_ver" ,function(){
 			scrollTop: position.top
 		}, 2000);
 	});
-	
-	
-	
+
 	
 	$(document).on("click",".indepth_menu_item",function(){
 		 var num_menu=$(this).attr("num");
