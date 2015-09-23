@@ -3,7 +3,6 @@
 }
 
 .indepth_share{
-		display: none;
 		position: fixed;
 		right: 10px;
 		bottom: 10px;
@@ -196,9 +195,7 @@
 }
 
 
-.indepth_tatuajes_cuadros, .indepth_cover_movil{
-	display: none;
-}
+
 
 
 .indepth_tatuajes_text{
@@ -572,7 +569,24 @@
 @media screen and (min-width: 860px) {
 	
 	/***** mosaico ******/
+	.indepth_tatuajes_cuadros, .indepth_cover_movil, .indepth_i{
+		display: none;
+	}
 	
+	.indepth_tatuajes_cuadros{
+		background: rgba(209, 88, 88, 0.45);
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		text-align: center;
+	}
+	
+	.indepth_i{
+		vertical-align: middle;
+		margin: auto;
+	}
+
 	#ALI{
 		background-image: url(../images/2MOSAICO_ALI.jpg);
 	}
@@ -1363,9 +1377,13 @@
 		
 	}
 	
-	.indepth_tatuajes_cuadros img{
+	.indepth_i{
 		width: 100%;
 		margin: 10px auto;
+	}
+	
+	.indepth_i img{
+		width: 100%;
 	}
 
 	

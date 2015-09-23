@@ -11,59 +11,27 @@ var numeroImages2=8;
 var posicion_slider2=0;
 var share;
 
-$(document).on("touchstart click", ".indepth_share_logos_item" ,function(){
-	
-	var team=$(this).attr("red");
-	share=team;
-	var text='¡Yo le voy '+team+' FC! ¿Y tú a quién escoges? Conoce a todos los equipos de la Social Network Football League';
-	var url='http://juanfutbol.com/indepth/animated-football-league?playeras_redes='+team+'&image='+urlIndepth+'images/'+team+'-Descarga.png';
-	var img='<img src="'+urlIndepth+'images/'+team+'-Descarga.png">';
-	var title='¡Yo le voy a '+nombres[team]+'  FC!';
-		$("#indepth_share_card #indepth_share_image").html(img);
-		$("#indepth_share_card #indepth_share_title").html(title);
-		$("#indepth_share_card .indepth_share_text").html(frases[team]+'No dejes de compartir tu elección de la Animated Football League.');
-		$(".indepth_share_big_content").css("display","table");
-		$("html,body").css("overflow","hidden");
-		$("html,body").css("position","relative");
-		
-	});
-	
-	
-	$(document).on("click", "#indepth_share_twiiter", function(){
-		var text = encodeURIComponent(frases[share]+" ¡Yo le voy a "+nombres[share]+" FC! Conoce las escuadras de la Animated Football League");
-		if(share=="JACK"){
-			var text = encodeURIComponent("¡Yo le voy a "+nombres[share]+" FC! Conoce las escuadras de la Animated Football League");
-			
-		}
-		
-		if(share=="MONSTER"){
-			var text = encodeURIComponent("Wazowski está feliz con tu incorporación. ¡Monsters FC! Conoce todas las escuadras de la Animated Football League");
-		}
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/animated-football-league");
-		window.open("https://twitter.com/share?text="+text+"&url="+url,"","width=500, height=300");
-		}
-	);
-	
-	$(document).on("click", "#indepth_share_fb", function(){
-		var text=frases[share]+" ¡Yo le voy a "+nombres[share]+" FC! ¿Quieres ser parte del equipo? Conoce todas las escuadras de la Animated Football League";
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/animated-football-league?text="+text+"&image="+urlIndepth+"images/"+share+"-Descarga.png");
-		window.open("https://www.facebook.com/sharer/sharer.php?u="+url,"","width=500, height=300");
+$(document).on("click",".indepth_mosaico_item",function(){
+	var mu = $(this).attr("id");
+	var time = $("#indepth_"+mu).attr("num")*500;
+	//console.log(time);
+	var position = $("#indepth_"+mu).position();
+	$('html, body').animate({
+		scrollTop: position.top
+	}, 0);
+});
 
-	});
+$(document).on("click",".indepth_tatuaje_item",function(){
+	var parent = $(this).parent().parent();
+	var num_t=$(this).attr("num");
+	console.log(parent);
+	var th = parent.find(".indepth_i").eq(num_t-1);
+	console.log(th);
+	th.css("display","table-cell");
+	parent.find(".indepth_tatuajes_cuadros").fadeIn();
+	parent.find(".indepth_tatuajes_cuadros").css("display","table");
 	
-	$(document).on("click","#indepth_card_close",function(){
-		$("html,body").css("overflow","auto");
-		$(".indepth_share_big_content").hide();
-	});
-	
-	$(document).on("click",".indepth_share_big_content",function(e){
-		console.log(e.target.id);
-		 if (e.target.id != '#test' && !$('#test').find(e.target).length) {
-	        $(".indepth_share_big_content").hide();
-	        $("html,body").css("overflow","auto");
-	    }
-	})
-
+});
 
 $(document).on("click", "#indepth_button_ver" ,function(){
 		var position = $(".indepth_content_top").position();
@@ -249,14 +217,19 @@ $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	indepth_preloadImgs();
 	var ventana_alto = $(window).height();
+	var ventana_ancho = $(window).width();
 	//$("#indepth_break_2").css("height",)
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
     {   	
     
 			 $('#indepth_cover_view').css("position","absolute");
     }else{
-    	 if(ventana_alto>600){
+    	 if(ventana_ancho>600){
 		 $('.indepth_container_cover').css("height",(ventana_alto)+"px");
+			 $(".indepth_tatuajes_cuadros").css({
+				 width : ventana_ancho + "px",
+				 height : ventana_alto + "px"
+			 });
 
  	}
 	 //ventana_alto=ventana_alto-(ventana_alto*.15)
@@ -275,9 +248,9 @@ $(document).ready(function(){
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
 	var ventana_alto = $(window).height();
-	
+	var ventana_ancho = $(window).width();
     	//$('#indepth_cover').css("height",(ventana_alto-60)+"px");
-    	 if(ventana_alto>600){
+    	 if(ventana_ancho>600){
 	 	$('.indepth_container_cover').css("height",(ventana_alto)+"px");
  	}
 	 if(navigator.platform == 'iPad'){
